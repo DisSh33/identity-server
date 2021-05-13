@@ -14,5 +14,7 @@ Authrization server using OAuth 2.0 and IdentityServer4 with test api, test mvc-
 • Реализована поддержка refresh_token и offline_access  
 • Добавлены дополнительные настройки для SameSiteCookiePolicy для корректной работы в новых версиях браузеров  
   
+https://user-images.githubusercontent.com/36980493/118080135-3f2eef80-b3c2-11eb-9eb5-1c20abd5aacf.png
+  
 ------------------------------------------------------------------------------------------   
   
