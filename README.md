@@ -1,7 +1,7 @@
 # Identity-Server
 Authrization server using OAuth 2.0 and IdentityServer4 with test api, test mvc-client and test api-client
     
-During the work on the project:  
+В ходе работы над проектом:   
 • Разработан сервер авторизации с использованием IdentyServer4 и протокола OAuth 2.0, поддерживающий различные типы авторизации (Authorization code, Implicit, Client credentials, Hybrid)  
 • Создана база данных (PostgeSQL) для хранения моделей пользователей и конфигурации сервера авторизации (информация о приложениях-клиентах, настройки для access tokens, api resources, claims и scopes)  
 • Добавлены возможности авторизации с помощью access_token и с помощью cookies (возможность авторизации как конкретных пользователей, так и внешних сервисов)  
