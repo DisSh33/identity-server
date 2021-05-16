@@ -1,10 +1,12 @@
 # Identity-Server
 Authrization server using OAuth 2.0 and IdentityServer4 with test api, test mvc-client and test api-client
     
+![alt text](https://user-images.githubusercontent.com/36980493/118080135-3f2eef80-b3c2-11eb-9eb5-1c20abd5aacf.png)  
+  
 В ходе работы над проектом:   
 • Разработан сервер авторизации с использованием IdentyServer4 и протокола OAuth 2.0, поддерживающий различные типы авторизации (Authorization code, Implicit, Client credentials, Hybrid)  
 • Создана база данных (PostgeSQL) для хранения моделей пользователей и конфигурации сервера авторизации (информация о приложениях-клиентах, настройки для access tokens, api resources, claims и scopes)  
-• Добавлены возможности авторизации с помощью access_token и с помощью cookies (возможность авторизации как конкретных пользователей, так и внешних сервисов)  
+• Возможность авторизации как с помощью access_token, так и с помощью cookies (возможность авторизации как конкретных пользователей, так и внешних сервисов)  
 • Разработано и настроено тестовое API с закрытым авторизацией методом   
 • Разработаны и настроены тестовые MVC-клиент и API-клиент для проверки различных вариантов авторизации через сервер  
 • Проработана архитектура и способы взаимодействия для сервера авторизации с закрытыми API и приложениями-клиентами   
@@ -13,8 +15,6 @@ Authrization server using OAuth 2.0 and IdentityServer4 with test api, test mvc-
 • Использованы policy и claims для управления доступом пользователей и сервисов  
 • Реализована поддержка refresh_token и offline_access  
 • Добавлены дополнительные настройки для SameSiteCookiePolicy для корректной работы в новых версиях браузеров  
-  
-![alt text](https://user-images.githubusercontent.com/36980493/118080135-3f2eef80-b3c2-11eb-9eb5-1c20abd5aacf.png)  
   
 ------------------------------------------------------------------------------------------   
   
